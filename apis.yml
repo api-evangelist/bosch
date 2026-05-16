@@ -8,11 +8,140 @@ tags:
   - Automotive
   - Industrial
   - Technology
-description: 'A German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. One of the world''s largest suppliers of mobility solutions and home appliances.'
+  - IoT
+  - Smart Home
+description: >-
+  Bosch is a German multinational engineering and technology company producing
+  automotive components, industrial technology, consumer goods, and energy
+  and building technology. Bosch operates the Bosch IoT Suite, an open
+  IoT platform offering device management, software rollouts, edge services,
+  and IoT data analytics, along with open source contributions to Eclipse
+  Foundation IoT projects.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: bosch:bosch-iot-remote-manager
+    name: Bosch IoT Remote Manager
+    tags:
+      - IoT
+      - Device Management
+      - Remote Management
+    humanURL: https://bosch-iot-suite.com/service/remote-manager/
+    properties:
+      - url: https://bosch-iot-suite.com/service/remote-manager/
+        type: Documentation
+    description: >-
+      Bosch IoT Remote Manager enables management, updating, control, and
+      servicing of IoT devices throughout their lifecycle. The service provides
+      remote device administration, monitoring, and configuration capabilities
+      for connected device fleets.
+
+  - aid: bosch:bosch-iot-rollouts
+    name: Bosch IoT Rollouts
+    tags:
+      - IoT
+      - Software Updates
+      - Device Management
+    humanURL: https://bosch-iot-suite.com/service/rollouts/
+    properties:
+      - url: https://bosch-iot-suite.com/service/rollouts/
+        type: Documentation
+    description: >-
+      Bosch IoT Rollouts is a software update deployment solution for managing
+      and orchestrating over-the-air firmware and software updates across
+      large fleets of connected IoT devices. Built on Eclipse hawkBit.
+
+  - aid: bosch:bosch-iot-insights
+    name: Bosch IoT Insights
+    tags:
+      - IoT
+      - Data Analytics
+      - Telemetry
+    humanURL: https://bosch-iot-suite.com/service/insights/
+    properties:
+      - url: https://bosch-iot-suite.com/service/insights/
+        type: Documentation
+    description: >-
+      Bosch IoT Insights collects, processes, stores, assesses, and visualizes
+      IoT data. The service provides telemetry ingestion, time-series storage,
+      analytics dashboards, and data export capabilities for connected device
+      ecosystems.
+
+  - aid: bosch:bosch-iot-edge-agent
+    name: Bosch IoT Edge Agent
+    tags:
+      - IoT
+      - Edge Computing
+      - Device Enablement
+    humanURL: https://bosch-iot-suite.com/service/bosch-iot-edge-agent/
+    properties:
+      - url: https://bosch-iot-suite.com/service/bosch-iot-edge-agent/
+        type: Documentation
+    description: >-
+      Bosch IoT Edge Agent is a device enablement solution for edge computing
+      scenarios. The agent runs on edge gateways and devices to provide
+      connectivity, local processing, and integration with the broader
+      Bosch IoT Suite.
+
+  - aid: bosch:bosch-iot-edge-services
+    name: Bosch IoT Edge Services
+    tags:
+      - IoT
+      - Edge Computing
+      - Infrastructure
+    humanURL: https://bosch-iot-suite.com/service/bosch-iot-edge-services/
+    properties:
+      - url: https://bosch-iot-suite.com/service/bosch-iot-edge-services/
+        type: Documentation
+    description: >-
+      Bosch IoT Edge Services provide edge infrastructure and management
+      capabilities for distributed edge computing deployments, supporting
+      device orchestration, software deployment, and runtime management
+      at the edge.
 common:
   - type: Website
     url: https://www.bosch.com/
+  - type: Portal
+    url: https://bosch-iot-suite.com/
+  - type: OpenSource
+    url: https://opensource.bosch.com/
+  - type: SecurityAdvisories
+    url: https://psirt.bosch.com/
+  - type: Features
+    data:
+      - name: IoT Device Management
+        description: Lifecycle management of connected devices via Bosch IoT Remote Manager.
+      - name: Software Rollouts
+        description: Over-the-air software and firmware updates at scale via Bosch IoT Rollouts.
+      - name: IoT Data Analytics
+        description: Data ingestion, processing, storage, and visualization via Bosch IoT Insights.
+      - name: Edge Computing
+        description: Edge agent and edge services for distributed computing at the device level.
+      - name: Open Source IoT
+        description: Contributions to Eclipse Foundation projects including Ditto, hawkBit, Hono, Kanto, Vorto, Californium, and Leshan.
+  - type: UseCases
+    data:
+      - name: Connected Vehicle Telematics
+        description: Manage and update fleets of connected vehicles via IoT services.
+      - name: Industrial IoT
+        description: Monitor and orchestrate factory-floor and industrial equipment.
+      - name: Smart Home
+        description: Manage smart home appliances, sensors, and gateways at scale.
+      - name: Predictive Maintenance
+        description: Use IoT data to detect anomalies and schedule preventative maintenance.
+      - name: Over-the-Air Updates
+        description: Securely deploy software updates to large device fleets.
+  - type: Integrations
+    data:
+      - name: Eclipse Ditto
+        description: Digital twin framework underpinning Bosch IoT Things.
+      - name: Eclipse hawkBit
+        description: Software update management framework underpinning Bosch IoT Rollouts.
+      - name: Eclipse Hono
+        description: Device connectivity framework for IoT messaging.
+      - name: Eclipse Kanto
+        description: Edge framework for IoT applications and devices.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
