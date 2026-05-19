@@ -100,6 +100,10 @@ apis:
       device orchestration, software deployment, and runtime management
       at the edge.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/boschglobal
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bosch
   - type: Website
     url: https://www.bosch.com/
   - type: Portal
