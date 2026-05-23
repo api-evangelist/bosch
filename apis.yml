@@ -108,6 +108,9 @@ common:
     url: https://www.bosch.com/
   - type: Portal
     url: https://bosch-iot-suite.com/
+  - type: DeveloperPortal
+    url: https://developer.bosch.com/
+    description: Bosch developer hub spanning IoT, mobility, and connected industry APIs (verified live 2026-05-23)
   - type: OpenSource
     url: https://opensource.bosch.com/
   - type: SecurityAdvisories
