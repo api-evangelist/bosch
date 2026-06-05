@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "iot": "https://www.w3.org/2019/wot/td#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Bosch": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": "schema:url",
+        "industry": "schema:industry",
+        "description": "schema:description",
+        "logo": "schema:logo",
+        "sameAs": "schema:sameAs"
+      }
+    },
+
+    "name": "schema:name",
+    "url": { "@id": "schema:url", "@type": "@id" },
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "identifier": "schema:identifier",
+    "version": "schema:version",
+    "dateModified": { "@id": "schema:dateModified", "@type": "xsd:date" },
+
+    "IoTDevice": {
+      "@id": "iot:Thing",
+      "@context": {
+        "deviceId": "schema:identifier",
+        "manufacturer": "schema:manufacturer",
+        "model": "schema:model",
+        "firmware": "schema:softwareVersion",
+        "status": "iot:hasStatus",
+        "lastSeen": { "@id": "schema:dateModified", "@type": "xsd:dateTime" }
+      }
+    },
+
+    "DeviceFleet": {
+      "@id": "schema:ItemList",
+      "@context": {
+        "fleetId": "schema:identifier",
+        "deviceCount": "schema:numberOfItems",
+        "devices": { "@id": "schema:itemListElement", "@type": "@id" }
+      }
+    },
+
+    "SoftwareUpdate": {
+      "@id": "schema:SoftwareApplication",
+      "@context": {
+        "updateId": "schema:identifier",
+        "version": "schema:version",
+        "targetDevices": "schema:audience",
+        "deploymentStatus": "schema:actionStatus",
+        "rolloutPolicy": "schema:description"
+      }
+    },
+
+    "Telemetry": {
+      "@id": "sosa:Observation",
+      "@context": {
+        "observedProperty": { "@id": "sosa:observedProperty", "@type": "@id" },
+        "hasResult": "sosa:hasResult",
+        "resultTime": { "@id": "sosa:resultTime", "@type": "xsd:dateTime" },
+        "madeBySensor": { "@id": "sosa:madeBySensor", "@type": "@id" }
+      }
+    },
+
+    "EdgeGateway": {
+      "@id": "ssn:Platform",
+      "@context": {
+        "gatewayId": "schema:identifier",
+        "location": "schema:location",
+        "connectedDevices": "ssn:hosts",
+        "edgeRuntime": "schema:softwareVersion"
+      }
+    },
+
+    "DigitalTwin": {
+      "@id": "iot:Thing",
+      "@context": {
+        "twinId": "schema:identifier",
+        "physicalAsset": { "@id": "schema:about", "@type": "@id" },
+        "properties": "iot:hasPropertyAffordance",
+        "actions": "iot:hasActionAffordance",
+        "events": "iot:hasEventAffordance"
+      }
+    }
+  }
+}

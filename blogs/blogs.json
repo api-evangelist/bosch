@@ -1,0 +1,28 @@
+{
+  "repo": "bosch",
+  "feeds": [
+    {
+      "source": "https://www.bosch.com/",
+      "feed_url": "https://www.bosch.com/stories/",
+      "title": "Bosch Stories",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://bosch-iot-suite.com/",
+      "feed_url": "https://bosch-iot-suite.com/blog/",
+      "title": "Bosch IoT Suite Blog",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://developer.bosch.com/",
+      "feed_url": "https://developer.bosch.com/blog/",
+      "title": "Bosch Developer Blog",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

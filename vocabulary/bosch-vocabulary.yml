@@ -1,0 +1,154 @@
+vocabulary:
+  name: Bosch IoT Suite Vocabulary
+  description: >-
+    Key industrial and IoT concepts used across the Bosch IoT Suite platform,
+    covering device management, software rollouts, telemetry analytics, edge
+    computing, and digital twin capabilities.
+  version: "1.0.0"
+  terms:
+
+    - term: IoT Device
+      definition: >-
+        A physical connected object (sensor, actuator, gateway, or appliance)
+        managed through the Bosch IoT Suite. Devices are identified by a unique
+        device ID and have a lifecycle that includes provisioning, configuration,
+        monitoring, and decommissioning.
+      tags:
+        - device-management
+        - iot
+        - remote-manager
+
+    - term: Device Fleet
+      definition: >-
+        A collection of IoT devices managed as a group. Fleet management
+        enables bulk operations such as configuration pushes, firmware updates,
+        and health monitoring across thousands or millions of connected devices.
+      tags:
+        - device-management
+        - fleet
+        - remote-manager
+
+    - term: Firmware Rollout
+      definition: >-
+        A managed, over-the-air (OTA) deployment of firmware or software to
+        one or more target devices. Rollouts in Bosch IoT Rollouts (built on
+        Eclipse hawkBit) support staged deployment with scheduling, targeting
+        rules, and rollback capabilities.
+      tags:
+        - ota
+        - firmware
+        - rollouts
+        - hawkbit
+
+    - term: Distribution Set
+      definition: >-
+        A versioned bundle of software modules defined in Bosch IoT Rollouts /
+        Eclipse hawkBit that can be assigned to devices or device groups as a
+        single deployable unit.
+      tags:
+        - rollouts
+        - software-update
+        - hawkbit
+
+    - term: Telemetry
+      definition: >-
+        Time-stamped sensor or device data transmitted from IoT devices to the
+        cloud for storage and analysis. In Bosch IoT Insights, telemetry data
+        is ingested, stored as time-series, and made available for dashboards
+        and data export.
+      tags:
+        - analytics
+        - time-series
+        - insights
+        - data
+
+    - term: Digital Twin
+      definition: >-
+        A virtual representation of a physical device or asset maintained in
+        real time. Bosch's digital twin framework (Eclipse Ditto) synchronizes
+        device state as a JSON document called a Thing, enabling applications
+        to read and write device properties without direct device communication.
+      tags:
+        - digital-twin
+        - ditto
+        - eclipse
+        - iot
+
+    - term: Edge Gateway
+      definition: >-
+        A device or server located at the network edge that aggregates data
+        from local devices, performs preprocessing, and communicates with the
+        cloud. Bosch IoT Edge Agent runs on gateways to provide connectivity
+        and local processing capabilities.
+      tags:
+        - edge
+        - gateway
+        - edge-agent
+        - edge-services
+
+    - term: OTA Update
+      definition: >-
+        Over-the-Air update — a mechanism for remotely delivering firmware,
+        software, or configuration changes to connected devices without physical
+        access. A core capability of Bosch IoT Rollouts.
+      tags:
+        - ota
+        - firmware
+        - rollouts
+        - device-management
+
+    - term: Thing
+      definition: >-
+        The core data model in Eclipse Ditto representing a digital twin of
+        a physical device. A Thing contains a unique identifier, attributes
+        (static metadata), and features (dynamic properties with state).
+      tags:
+        - digital-twin
+        - ditto
+        - eclipse
+        - data-model
+
+    - term: Predictive Maintenance
+      definition: >-
+        A use case enabled by IoT telemetry data where anomaly detection and
+        data analytics identify potential equipment failures before they occur,
+        allowing preventative action to reduce downtime and maintenance costs.
+      tags:
+        - analytics
+        - maintenance
+        - industrial-iot
+        - insights
+
+    - term: Eclipse hawkBit
+      definition: >-
+        An open-source firmware update solution maintained by the Eclipse
+        Foundation and the underlying platform for Bosch IoT Rollouts. hawkBit
+        manages software repositories, target devices, and deployment campaigns.
+      tags:
+        - hawkbit
+        - eclipse
+        - open-source
+        - rollouts
+
+    - term: Eclipse Hono
+      definition: >-
+        An open-source IoT messaging infrastructure project from the Eclipse
+        Foundation providing device connectivity adapters (MQTT, HTTP, AMQP)
+        that normalize device communication for backend services.
+      tags:
+        - hono
+        - eclipse
+        - open-source
+        - messaging
+        - connectivity
+
+    - term: Industrial IoT (IIoT)
+      definition: >-
+        The application of IoT technologies in industrial and manufacturing
+        settings — connecting machines, sensors, and control systems to enable
+        monitoring, optimization, and automation of industrial processes.
+      tags:
+        - industrial
+        - manufacturing
+        - iot
+        - automation
