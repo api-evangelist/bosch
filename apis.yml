@@ -40,7 +40,7 @@ description: >-
   and IoT data analytics, along with open source contributions to Eclipse
   Foundation IoT projects.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: bosch:bosch-iot-remote-manager
@@ -122,6 +122,8 @@ apis:
       device orchestration, software deployment, and runtime management
       at the edge.
 common:
+  - url: https://www.bosch.com/stories/
+    type: Blog
   - type: VulnerabilityDisclosure
     url: security/bosch-vulnerability-disclosure.yml
   - type: DomainSecurity
