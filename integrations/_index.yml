@@ -108,3 +108,40 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: bosch-open-robotics-ros-package-index
+  label: Open Robotics (ROS package index)
+  partner_name: Open Robotics (ROS package index)
+  category: ROS packages
+  type: register
+  channel: standard-directory
+  evidence: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ROS 2 rosdistro (repo.ros2.org/rosdistro_cache)
+    spec_file: null
+    standard: ROS 2
+    role: ros-package-maintainer
+    matched_domain: bosch.com
+    matched_by: domain
+    source_owner: bosch-engineering
+    distros:
+    - humble
+    - jazzy
+    - kilted
+    - rolling
+    packages: 42
+    sample_packages:
+    - bosch_locator_bridge
+    - bosch_locator_bridge_utils
+    - diagnostic_aggregator
+    - diagnostic_common_diagnostics
+    - diagnostic_remote_logging
+    - diagnostic_updater
+    - diagnostics
+    - examples_rclcpp_cbg_executor
+    signal_note: 'participation only: packages/distros are context, never read'
+    detected_by: sweep-industrial-robotics.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
