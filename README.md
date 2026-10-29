@@ -1,4 +1,4 @@
-# Bosch (bosch)
+# Bosch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,100 @@
 
 Bosch is a German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. Bosch operates the Bosch IoT Suite, an open IoT platform offering device management, software rollouts, edge services, and IoT data analytics, along with open source contributions to Eclipse Foundation IoT projects.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bosch/refs/heads/main/apis.yml)
+**Areas:** Manufacturing · Automotive · Industrial · Technology · IoT · Smart Home
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Bosch on APIs.io
 
-## Tags:
+Everything profiled for Bosch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bosch/](https://apis.io/providers/bosch/)** — or go straight to one of the APIs or properties below.
 
- - Manufacturing, Automotive, Industrial, Technology, IoT, Smart Home
+### APIs (5)
 
-## Timestamps
+- [Bosch IoT Remote Manager](https://apis.io/apis/bosch/bosch-iot-remote-manager/) — Bosch IoT Remote Manager enables management, updating, control, and servicing of IoT devices throughout their lifecycle. The service provides remote device…
+- [Bosch IoT Rollouts](https://apis.io/apis/bosch/bosch-iot-rollouts/) — Bosch IoT Rollouts is a software update deployment solution for managing and orchestrating over-the-air firmware and software updates across large fleets of…
+- [Bosch IoT Insights](https://apis.io/apis/bosch/bosch-iot-insights/) — Bosch IoT Insights collects, processes, stores, assesses, and visualizes IoT data. The service provides telemetry ingestion, time-series storage, analytics…
+- [Bosch IoT Edge Agent](https://apis.io/apis/bosch/bosch-iot-edge-agent/) — Bosch IoT Edge Agent is a device enablement solution for edge computing scenarios. The agent runs on edge gateways and devices to provide connectivity,…
+- [Bosch IoT Edge Services](https://apis.io/apis/bosch/bosch-iot-edge-services/) — Bosch IoT Edge Services provide edge infrastructure and management capabilities for distributed edge computing deployments, supporting device orchestration,…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Bosch IoT Remote Manager
-Manage, update, control, and service IoT devices throughout their lifecycle.
+#### JSON-LD (1)
 
-**Human URL:** [https://bosch-iot-suite.com/service/remote-manager/](https://bosch-iot-suite.com/service/remote-manager/)
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags: IoT, Device Management, Remote Management
+- [Bosch Context](https://apis.io/jsonld/bosch/bosch-context/)
 
-### Bosch IoT Rollouts
-Software update deployment solution for orchestrating over-the-air updates across large fleets.
+#### Vocabulary (1)
 
-**Human URL:** [https://bosch-iot-suite.com/service/rollouts/](https://bosch-iot-suite.com/service/rollouts/)
+The provider's domain terms, defined.
 
-#### Tags: IoT, Software Updates, Device Management
+- [Bosch IoT Suite Vocabulary](https://apis.io/vocabularies/bosch/bosch-vocabulary/)
 
-### Bosch IoT Insights
-Collect, process, store, assess, and visualize IoT data.
+#### Security (2)
 
-**Human URL:** [https://bosch-iot-suite.com/service/insights/](https://bosch-iot-suite.com/service/insights/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags: IoT, Data Analytics, Telemetry
+- [Bosch Domain Security](https://apis.io/security/bosch/bosch-domain-security/)
+- [Bosch Vulnerability Disclosure](https://apis.io/security/bosch/bosch-vulnerability-disclosure/)
 
-### Bosch IoT Edge Agent
-Device enablement solution for edge computing scenarios.
+## Where to find this API
 
-**Human URL:** [https://bosch-iot-suite.com/service/bosch-iot-edge-agent/](https://bosch-iot-suite.com/service/bosch-iot-edge-agent/)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags: IoT, Edge Computing, Device Enablement
+- [Website](https://www.bosch.com/)
+- [Blog](https://www.bosch.com/stories/)
+- [GitHub](https://github.com/boschglobal)
 
-### Bosch IoT Edge Services
-Edge infrastructure and management capabilities for distributed edge computing.
+## API Evangelist rating
 
-**Human URL:** [https://bosch-iot-suite.com/service/bosch-iot-edge-services/](https://bosch-iot-suite.com/service/bosch-iot-edge-services/)
+**Kin Score 13.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-#### Tags: IoT, Edge Computing, Infrastructure
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 0.0 |
 
-## Common
+**Agent readiness 0.0** — human-only
 
-- **Website:** https://www.bosch.com/
-- **Portal:** https://bosch-iot-suite.com/
-- **OpenSource:** https://opensource.bosch.com/
-- **SecurityAdvisories:** https://psirt.bosch.com/
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Maintainers
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bosch/](https://apis.io/providers/bosch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bosch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bosch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
